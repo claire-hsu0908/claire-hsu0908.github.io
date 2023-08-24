@@ -4,6 +4,7 @@ import phoneBookIcon from './pics/phoneBookIcon.png'
 import weatherIcon from './pics/weatherIcon.png'
 import stanfordIcon from './pics/stanford-university-logo-1.png'
 import DukeSmartHome from './pics/DukeSmartHome.jpg'
+import websitePic from './pics/websitePic.png'
 import {Link} from 'react-router-dom';
 import {Tabs} from './HomePage'
 
@@ -11,6 +12,8 @@ import {Tabs} from './HomePage'
 const GridData= [
   { name: 'Phonebook Application', image: phoneBookIcon, alt:'phoneBook icon',section:'Programming',rotate:'-45deg',
   project1:'FrontEnd', href1:'https://github.com/claire-hsu0908/phonebook-frontend',project2:'BackEnd',href2:'https://github.com/claire-hsu0908/phonebook-backend'},
+  
+  {name:'Personal Website', section:'Programming',project1:'FrontEnd',image:websitePic,width:'150px',radius:'20px',href1:'https://github.com/claire-hsu0908/claire-hsu0908.github.io'},
 
   { name: 'Weather Application',image:weatherIcon,alt:'weather icon',section:'Programming',project1:'FrontEnd',href1:'https://github.com/claire-hsu0908/weather-app'},
   
@@ -30,7 +33,7 @@ const GridContainer = () =>{
       {GridData.map((item, idx) => (
         <div key={`flex-item-${idx}`} className="flex-item">
           <h5>{item.section}</h5>
-          {<img src = {item.image} alt = {item.alt} style = {{width:item.width,height:item.height,rotate:item.rotate}}/>}          
+          {<img src = {item.image} alt = {item.alt} style = {{width:item.width,height:item.height,rotate:item.rotate,borderRadius:item.radius}}/>}          
           <h2>{item.name}</h2>
 
           <a href= {`${item.href1}`}><button className = 'buttonStyle'>{item.project1}</button></a>
