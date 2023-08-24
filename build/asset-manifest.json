@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/static/css/main.7168cf13.css",
+    "main.js": "/static/js/main.6a3b1908.js",
+    "static/media/profilePic.png": "/static/media/profilePic.59faacaa8f8f2db50681.png",
+    "static/media/DukeChapel.jpg": "/static/media/DukeChapel.eb9be45ab5f70f088885.jpg",
+    "static/media/DukeLDOC.jpg": "/static/media/DukeLDOC.8a269a2d65a133c7045a.jpg",
+    "static/media/stanford-university-logo-1.png": "/static/media/stanford-university-logo-1.618871fcdae5b6917225.png",
+    "static/media/DukeWU.jpg": "/static/media/DukeWU.929fc55a59b20540e1de.jpg",
+    "static/media/DukeSkyline.jpg": "/static/media/DukeSkyline.af73039dbc7b472efc92.jpg",
+    "static/media/gitHub icon.png": "/static/media/gitHub icon.ecf329c2c06a1f41fae4.png",
+    "static/media/weatherIcon.png": "/static/media/weatherIcon.6dc216154b41f1f9d461.png",
+    "static/media/brushed-alum.png": "/static/media/brushed-alum.acc9a88b9257dc3ce2da.png",
+    "index.html": "/index.html",
+    "main.7168cf13.css.map": "/static/css/main.7168cf13.css.map",
+    "main.6a3b1908.js.map": "/static/js/main.6a3b1908.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.7168cf13.css",
+    "static/js/main.6a3b1908.js"
+  ]
+}
