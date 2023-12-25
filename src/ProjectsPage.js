@@ -10,7 +10,7 @@ import {Tabs} from './HomePage'
 
 
 const GridData= [
-  {name: "Cache-Memory Stimulator, image: , alt: 'cache-icon',section: 'Programming', project1:'BackEnd', href1: 'https://github.com/claire-hsu0908/cache_memory'}
+  {name: "Cache-Memory Stimulator, image: , alt: 'cache-icon',section: 'Programming', project1:'BackEnd', href1: 'https://github.com/claire-hsu0908/cache_memory'},
   { name: 'Phonebook Application', image: phoneBookIcon, alt:'phoneBook icon',section:'Programming',rotate:'-45deg',
   project1:'FrontEnd', href1:'https://github.com/claire-hsu0908/phonebook-frontend',project2:'BackEnd',href2:'https://github.com/claire-hsu0908/phonebook-backend'},
   
