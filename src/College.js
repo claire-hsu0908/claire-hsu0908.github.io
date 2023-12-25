@@ -13,7 +13,7 @@ const College = ()=>{
         </div> 
         <div style = {{marginLeft:'50px'}}>
         <h1 style = {{color:'rgb: (0, 48, 135)'}}>College</h1>
-        <h4>Each semester at Duke University💙, <br/>pursuing a major in Computer Science and Electrical Engineering</h4>
+        <h4>Each semester at Duke University💙, <br/>pursuing a major in Computer Science</h4>
         <div>
             <img src = {DukeSkyLine} style = {{width:'300px',height:'200px',marginLeft:'0px',position:'relative',zIndex:'1'}}/>
             <img src = {LDOC} style = {{width:'300px',height:'200px',position:'relative',zIndex:'1'}}/>
