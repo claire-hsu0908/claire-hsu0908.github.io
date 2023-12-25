@@ -19,6 +19,14 @@ const College = ()=>{
             <img src = {LDOC} style = {{width:'300px',height:'200px',position:'relative',zIndex:'1'}}/>
             <img src = {WU} style = {{width:'300px',height:'200px',position:'relative',zIndex:'1'}}/>
         </div>
+        <h2 style = {{marginTop:'50px'}}>Spring 2024</h2>
+        <ul>
+            <li><b>PHYSICS 152L:</b> Introduction to Electricity, Magnetism, and Optics</li>
+            <li><b>ECE 110:</b> Fundamentals of Electrical Computing</li>
+            <li><b>ECE 250:</b> Computer Architecture</li>
+            <li><b>EDUC 240:</b> Educational Psychology</li>
+        </ul>
+    
          <h2 style = {{marginTop:'50px'}}>Fall 2023</h2>
         <ul>
             <li><b>PHYSICS 152L:</b> Introduction to Electricity, Magnetism, and Optics</li>
